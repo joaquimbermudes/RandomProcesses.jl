@@ -7,7 +7,7 @@ using Statistics
 include("GaltonWatson.jl")
 include("MarkovChain.jl")
 include("Martingale.jl")
-include("NeuralPocess.jl")
+include("NeuralProcess.jl")
 include("PoisonProcess.jl")
 include("RandomWalk.jl")
 include("SARMA.jl")
