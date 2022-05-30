@@ -1,4 +1,4 @@
-module JuStochasticProcesses
+module RandomProcesses
 
 using Random
 using Distributions
