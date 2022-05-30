@@ -20,7 +20,7 @@ At the moment the package has 8 functions that simulling the following stochasti
 Importing RandomProcesses and PyPlot
 
 ```Julia
-using RandomProcesses, PyPlot
+using RandomProcesses, PyPlot, Distributions
 ```
 
 ### Random Walk
@@ -33,7 +33,7 @@ end
 
 ```
 
-FIG
+![RW.png](https://github.com/joaquimbermudes/RandomProcesses.jl/blob/main/Imgs/RW.png)
 
 ### Poisson Process
 
@@ -44,7 +44,7 @@ for _ in 1:5
 end
 
 ```
-FIG
+![Poisson.png](https://github.com/joaquimbermudes/RandomProcesses.jl/blob/main/Imgs/Poisson.png)
 
 ### Neural Process
 
@@ -64,9 +64,10 @@ end
 
 ```
 
-FIG
+![Neural.png](https://github.com/joaquimbermudes/RandomProcesses.jl/blob/main/Imgs/Neural.png)
 
 ## Coments
 
 1. Almost functions need the package "Distribution" for execute.
 2. You has that declare a vector of functions in each leyaer for neural process execute.
+3. This is my first package, please have pacience. Send criticisms and suggestions to joaquimacbermudes@gmail.com. I would also like to know out of curiosity in which projects the patent is being used.
