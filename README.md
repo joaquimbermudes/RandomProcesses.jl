@@ -1,1 +1,1 @@
-# JuStochasticProcesses
+# RandomProcesses
