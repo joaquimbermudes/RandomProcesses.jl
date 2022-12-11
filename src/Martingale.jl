@@ -7,7 +7,7 @@ export Martingale
 function Martingale(;Dist = Chisq(1), Mean = 1, Len = 1000)
     
     # Declaring the increments 
-    dM = rand(Dist, len) .- Mean
+    dM = rand(Dist, Len) .- Mean
     
     # Return Martingale
     return cumsum(dM)/std(cumsum(dM))
