@@ -1,7 +1,7 @@
 module RandomProcesses
 
 using Random
-#using Distributions
+using Distributions
 using Statistics
 
 include("GaltonWatson.jl")
